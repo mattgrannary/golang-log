@@ -116,7 +116,7 @@ func LevelAsString(level string) {
 	Level(getLevelFromString(level))
 }
 
-func Format(format func(level int, line string, message string) string) {
+func Format(format func(log Log) string) {
 	cfgFormat.Store(format)
 }
 
