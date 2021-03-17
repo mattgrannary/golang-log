@@ -1,3 +1,3 @@
-module github.com/leprosus/golang-log
+module github.com/mattgrannary/golang-log
 
-go 1.13
+go 1.16
